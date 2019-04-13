@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="is">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verkefni 6</title>
+    <link rel="stylesheet" href="verkefni6.css">
+</head>
+
+</header>
+<nav class="navbar">
+    <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+            <svg width="30" height="30">
+                <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+            </svg>
+        </a>
+    </span>
+
+    <nav class="navbar-nav">
+        <ol><a href="#1">Sports</a></ol>
+        <ol><a href="#2">About</a></ol>
+        <ol><a href="#3">Form</a></ol>
+        <ol><a href="#4">Table</a></ol>
+    </nav>
+</nav>
+
+<div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="#1">Sports</a>
+    <a href="#2">About</a>
+    <a href="#3">Form</a>
+    <a href="#4">Table</a>
+</div>
+
+<div id="main">
+    <h1></h1>
+</div>
+
+<script>
+    function openSlideMenu() {
+        document.getElementById('side-menu').style.width = '300px';
+        document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu() {
+        document.getElementById('side-menu').style.width = '0';
+        document.getElementById('main').style.marginLeft = '0';
+    }
+</script>
+<header id="showcase">
+    <h1>Welcome To My Site</h1>
+</header>
+<div id="content" class="container" id=" ">
+    </p>
+</div>
+
+<!-- Main -->
+<section class="colormain2">
+    <div class="back">
+        <h1 class="texto2" id="1">Sports</h1>
+        <p class="container" id="content"> Sport includes all forms of competitive physical activity or games which,[1]
+            through casual or organised participation, aim to use, maintain or improve physical ability and skills while
+            providing enjoyment to participants, and in some cases, entertainment for spectators.[2] Hundreds of sports
+            exist, from those between single contestants, through to those with hundreds of simultaneous participants,
+            either in teams or competing as individuals. In certain sports such as racing, many contestants may compete,
+            simultaneously or consecutively, with one winner; in others, the contest (a match) is between two sides,
+            each attempting to exceed the other. Some sports allow a "tie" or "draw", in which there is no single
+            winner; others provide tie-breaking methods to ensure one winner and one loser. A number of contests may be
+            arranged in a tournament producing a champion.</p>
+    </div>
+</section>
+<section class="colormain2" id="2">
+    <div class="back">
+        <h3 class="color3">About</h3>
+        <p id="content" class="container">HTML is a computer language devised to allow website creation. These websites
+            can then be viewed by
+            anyone else connected to the Internet. It is relatively easy to learn, with the basics being accessible
+            to most people in one sitting; and quite powerful in what it allows you to create. It is constantly
+            undergoing revision and evolution to meet the demands and requirements of the growing Internet audience
+            under the direction of the » W3C, the organisation charged with designing and maintaining the language.
+        </p>
+
+    </div>
+</section>
+<section class="colormain2" id="3">
+    <div class="back">
+        <h3 class="color3 ">Form</h3>
+        <p id="content" class="container"> 
+                <form action="#0">
+
+                        <form action="form.php">
+	
+                                <p>Send me a message :)</p>
+                            
+                                <ol>
+                                    
+                                    <li>
+                                        <label for="name">Name</label>
+                                        <input type="text" name="name" id="name" />
+                                </li>
+                                    
+                                    <li>
+                                        <label for="email">Email</label>
+                                        <input type="text" name="email" id="email" />
+                                    </li>
+                                
+                                <li>
+                                    <label for="website">Website</label>
+                                    <input type="text" name="website" id="website" />
+                                </li>
+                                
+                                    <li>
+                                        <label for="message">Message</label>
+                                        <textarea name="message" id="message"></textarea>
+                                    </li>
+                                    
+                                    <li id="send">
+                                        <button type="submit">Send</button>
+                                    </li>
+                            
+                            </ol>
+                        
+                            </form>
+                        
+    </div>
+</section>
+<section class="colormain2" id="4">
+    <div class="back">
+        <h3>Table</h3>
+            <table>
+                    <tr>
+                      <th>Company</th>
+                      <th>Contact</th>
+                      <th colspan="2">Telephone</th>
+                      <th>Country</th>
+                    </tr>
+                    <tr>
+                      <td>Alfreds Futterkiste</td>
+                      <td>Maria Anders</td>
+                      <td>55577854</td>
+                      <td>55577855</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Centro Comercial moctezuma</td>
+                      <td>Francisco Chang</td>
+                      <td>55577854</td>
+                      <td>55577855</td>
+                      <td>Mexico</td>
+                    </tr>
+                    <tr>
+                      <td>Ernst Handel</td>
+                      <td>Roland Mendel</td>
+                      <td>55577854</td>
+                      <td>55577855</td>
+                      <td>Austria</td>
+                    </tr>
+                    <tr>
+                      <td>Island Trading</td>
+                      <td>helen Bennett</td>
+                      <td>55577854</td>
+                      <td>55577855</td>
+                      <td>UK</td>
+                    </tr>
+                    <tr>
+                      <td>Laughing Bacchus Winecellars</td>
+                      <td>Yoshi Tannamuri</td>
+                      <td>55577854</td>
+                      <td>55577855</td>
+                      <td>Canada</td>
+                    </tr>
+                    <tr>
+                      <td>Magazzini Alimentari Riuniti</td>
+                      <td>Giovanni Rovelli</td>
+                      <td>55577854</td>
+                      <td>55577855</td>
+                      <td>Italy</td>
+                    </tr>
+                  </table>
+
+    </body>
+
+</html>

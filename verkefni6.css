@@ -1,0 +1,382 @@
+.back{
+    text-align: center;
+    margin: 0 auto;
+    
+  }
+  
+  * {
+    margin:0;
+    padding:0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #39bea1d2;
+    color: #fff;
+    text-align: center;
+  
+  }
+  
+  
+  .color3{
+    font-family: Lucida;
+    color: rgb(57, 20, 158);
+    font-size: 2em;
+    padding: 10px;
+    text-align: center;
+  
+  }
+  .texto2{
+    font-family: Lucida;
+    color: rgb(57, 20, 158);
+    font-size: 2em;
+    padding: 10px;
+    max-width: 60em;
+    margin: 0 auto
+  }
+   
+  p{
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+  }
+  .p2{
+    font-size: 20px;
+    text-align: center;
+  }
+  .haus2{
+    text-align: right;
+  }
+  
+  .pad{
+    padding-top: 30px;
+  }
+  
+  .colormain2{
+    background-image: linear-gradient(to right, rgb(62, 202, 144) , rgb(6, 67, 102));
+    height: 700px;
+  }
+  
+  .links a{
+    color: whitesmoke;
+  }
+  
+  
+  h3{
+    padding-top: 10px;
+    margin-top:0px;
+    color: rgb(0, 0, 71);  
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 60em;
+    margin: 0 auto;
+  }
+  
+  .text{
+    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .midja{
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  .pila{
+    height: 70px;
+    width: 70px;
+    background: white;
+    border-radius: 50%;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   font-size: 4em;
+   text-align: center;
+  }  
+  .container {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  #showcase {
+    height: 500px;
+  }
+  
+  #showcase h1 {
+    font-size: 50px;
+    line-height: 1.5;
+    position: relative;
+    animation: heading;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes heading {
+    0%   {top: -50px;}
+    100% {top: 200px;}
+  }
+  
+  #content {
+    position: relative;
+    animation-name: content;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes content {
+    0%   {left: -1000px;}
+    100% {left: 0;}
+  }
+  
+  .btn{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: #fff 1px solid;
+    margin-top:40px;
+    opacity: 0;
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+  
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+  
+  .btn:hover {
+    transform: rotateY(180deg);
+  }
+  
+  @keyframes btn {
+    0%   {opacity:0}
+    100% {opacity: 1}
+  }
+  
+  
+  .navbar{
+      background-color:#02859c;
+      overflow:hidden;
+      height:63px;
+    }
+    
+    .navbar a{
+      float:left;
+      display:block;
+      color:#f2f2f2;
+      text-align:center;
+      padding:14px 16px;
+      text-decoration:none;
+      font-size:17px;
+    }
+    
+    .navbar ul{
+      margin:8px 0 0 0;
+      list-style:none;
+    }
+    
+    .navbar a:hover{
+      background-color:#ddd;
+      color:#000;
+    }
+    
+    .side-nav{
+      height:100%;
+      width:0;
+      position:fixed;
+      z-index:1;
+      top:0;
+      left:0;
+      background-color:#111;
+      opacity:0.9;
+      overflow-x:hidden;
+      padding-top:60px;
+      transition:0.5s;
+    }
+    
+    .side-nav a{
+      padding:10px 10px 10px 30px;
+      text-decoration:none;
+      font-size:22px;
+      color:#ccc;
+      display:block;
+      transition:0.3s;
+    }
+    
+    .side-nav a:hover{
+      color:#fff;
+    }
+    
+    .side-nav .btn-close{
+      position:absolute;
+      top:0;
+      right:22px;
+      font-size:36px;
+      margin-left:50px;
+    }
+    
+    #main{
+      transition:margin-left 0.5s;
+      padding:20px;
+      overflow:hidden;
+      width:100%;
+    }
+    
+    @media(max-width:568px){
+      .navbar-nav{display:none}
+    }
+    
+    @media(min-width:568px){
+      /*.open-slide{display:none}*/
+    }
+  
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+  
+  
+  
+    .center {
+      display: table;
+      width: 100%;
+      height: 100vh;
+    }
+    
+    #social-test {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      font-size: 30px;
+     }
+  .social {
+        padding-left: 0px;
+      }
+      li {
+        display: inline-block;
+      }
+      li a {
+        color: rgba(256, 256, 256, 0.6);
+        border-radius: 6px;
+        list-style-type: none;
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        padding: 1%;
+        border: 1px solid rgba(256, 256, 256, 0.6);
+        cursor: pointer;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        transition: ease .3s;
+       }
+        &:hover {
+        color: rgba(256, 256, 256, 1);
+        border: 1px solid rgba(256, 256, 256, 1);
+        }
+      }
+    }
+    
+    .social:hover > li {
+      opacity: 0.5;
+    }
+    
+    .social:hover > li:hover {
+      opacity: 1;
+    }
+    .credits, .credits a {
+      font-size: 20px;
+      font-family: Open Sans;
+      color: rgba(256, 256, 256, 0.6);
+    
+  }
+  	
+p {
+	margin:0 0 10px 0;
+	padding:0;
+	}
+
+form {
+	font:13px Georgia, "Times New Roman", Times, serif;
+	background:rgb(207, 154, 218);
+	margin:20px;
+	padding:10px 20px;
+    width:330px;	
+    text-align: center;
+    margin: 0 auto;
+	}
+	
+	form ol {
+		list-style:none;
+		margin:0;
+        padding:0;
+        text-align: center;
+		}
+		
+		form li {
+			padding:6px;
+			background:#e1e1e1;
+            margin-bottom:1px;
+            text-align: center;
+			}
+			
+			form li#send {
+				background:none;
+                margin-top:6px;
+                text-align: center;
+				}
+		
+		form label {
+			float:left;
+			width:70px;
+			text-align:center;	
+			margin-right:7px;
+			color:#0066CC;
+			line-height:23px; /* This will make the labels vertically centered with the inputs */
+			}
+			
+		form input,
+		form textarea {
+			padding:4px;
+			font:13px Georgia, "Times New Roman", Times, serif;
+			border:1px solid #999999;
+            width:200px;
+            text-align: center;
+			}
+			
+			form input:focus,
+			form textarea:focus {
+				border:1px solid #666;
+                background:#e3f1f1;
+                text-align: center;
+				}
+			
+		form li#send button {
+			background:#003366 url(images/css-form-send.gif) no-repeat 8px 50%;
+			border:none;
+			padding:4px 8px 4px 28px;
+			border-radius:15%; /* Don't expect this to work on IE6 or 7 */
+			-moz-border-radius:15%;
+			-webkit-border-radius:15%;			
+			color:#fff;
+			margin-left:77px; /* Total width of the labels + their right margin */
+            cursor:pointer;
+            text-align: center;
+			}
+			
+			form li#send button:hover { 
+				background-color:#910096;
+                }
+                
+
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  margin: 0%auto;
+}
+tr:nth-child(even){
+  background-color: #bbbbbb;
+}             
